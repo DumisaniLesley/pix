@@ -4,7 +4,7 @@ import { HiDotsVertical } from "react-icons/hi";
 
 const Notification = ({ image, time, username}) => {
   return (
-    <div className="flex justify-between items-center gap-4 bg-white shadow-md my-2 p-2 rounded-md">
+    <div className="flex justify-between items-center gap-4 bg-white shadow-md my-1 p-2 rounded-md">
       <div>
         <Image
           src={image}
