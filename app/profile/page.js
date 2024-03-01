@@ -5,9 +5,12 @@ import Tabs from '@/components/Profile/Tabs'
 import Header from '@/components/Shared/Header'
 import React from 'react'
 
-const ProfilePage = () => {
+
+
+const ProfilePage = async () => {
+  
   return (
-<main className='px-4 bg-gray-200 py-4'>
+      <main className='px-4 bg-gray-200 py-4'>
         <Header />
         <ProfileDetails />
         <Tabs />
