@@ -49,7 +49,7 @@ const notifications = [
   {
       id: 8,
       username: "OliviaMartinez",
-      imagePath: '/stories/.png',
+      imagePath: '/stories/1.png',
       timeInMinutes: 120
   },
   {
