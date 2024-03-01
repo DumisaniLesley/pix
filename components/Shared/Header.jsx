@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
-import { currentUser } from '@clerk/nextjs';
+import { currentUser, UserButton } from '@clerk/nextjs';
 
 const Header = async () => {
 
@@ -15,7 +15,7 @@ const Header = async () => {
           </Link>
           <Link href='/' className='font-extrabold text-[22px]'>Pix</Link>
           <div>
-              <Image src={user.imageUrl} width={45} height={45} alt='story' className='rounded-full'/>
+            <UserButton />
           </div>
       </div>
     </div>

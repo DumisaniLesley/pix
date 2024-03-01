@@ -1,4 +1,4 @@
-import { currentUser } from '@clerk/nextjs'
+import { currentUser, UserButton } from '@clerk/nextjs'
 import Image from 'next/image'
 import React from 'react'
 import { FaSearch } from 'react-icons/fa'
@@ -18,7 +18,7 @@ const Header = async () => {
         <input type="text" placeholder='Search...' className='w-[170px] px-2 py-1 rounded-full bg-gray-200 placeholder:text-black placeholder:font-light placeholder:text-sm placeholder:px-1 focus:outline-none focus:cursor-wait'/>
           </div>
           <div>
-              <Image src={user.imageUrl} width={45} height={45} alt='story' className='rounded-full'/>
+              <UserButton />
           </div>
       </div>
     </header>
