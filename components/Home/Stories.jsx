@@ -5,8 +5,8 @@ import Story from './Story'
 const stories = [
   {
     id: 1,
-    name: 'add',
-    src: '/stories/plus.png',
+    name: 'Kitana',
+    src: '/stories/2.jpg',
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const stories = [
 
 const Stories = () => {
   return (
-    <div className='flex gap-4 overflow-x-auto mt-10'>
+    <div className='flex gap-4 overflow-x-auto mt-16'>
       {stories.map((story, index) => (
         <Story user={story.name} key={index}/>
       ))}
