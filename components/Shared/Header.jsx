@@ -9,6 +9,7 @@ const Header = () => {
         <Link href='/'>
             <MdOutlineKeyboardBackspace className='text-3xl'/>
           </Link>
+          <Link href='/' className='font-extrabold text-[22px]'>Pix</Link>
           <div>
               <IoMdExit className='text-3xl font-bold'/>
           </div>
