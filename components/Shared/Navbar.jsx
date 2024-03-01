@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { AiFillHome } from "react-icons/ai";
 import { FaHeart, FaPlusCircle, FaUser   } from "react-icons/fa";
@@ -39,12 +40,15 @@ const Links = [
 ]
 
 const Navbar = () => {
+
+  const pathname = usePathname()
+
   return (
     <nav className='w-full bg-white py-4 px-4 fixed bottom-0 shadow-[0px_-3px_13px_3px_#00000024]'>
       <ul className='flex justify-between'>
         {Links.map((link) => (
           <li key={link.id} className='px-2'>
-            <Link href={link.path} className='text-[26px]'>
+            <Link href={link.path} className={`text-[26px] ${pathname === link.path ? 'text-black' : 'text-gray-400'}`}>
               {link.icon}
             </Link>
           </li>
