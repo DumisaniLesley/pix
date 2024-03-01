@@ -18,7 +18,7 @@ const ProfileDetails = async () => {
                 <p className='-mt-1 font-semibold text-[13px] text-gray-500'>@{user.username}</p>
             </div>
         </div>
-        <div className='flex justify-between px-14 text-center mt-3'>
+        <div className='flex justify-between px-8 text-center mt-3'>
             <div>
                 <p className='font-bold'>25K</p>
                 <span className='text-gray-500 font-normal'>Followers</span>
