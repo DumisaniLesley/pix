@@ -4,11 +4,11 @@ import { FaHeart } from "react-icons/fa";
 
 const Post = ({ image, post}) => {
   return (
-    <div className='flex flex-col mt-6 w-full shadow-md rounded-lg my-3 p-2 bg-white'>
-        <div className='flex justify-between'>
-            <div className='flex items-center gap-3'>
+    <div className='flex flex-col mt-6 w-full shadow-md rounded-lg my-3 p-2  bg-white'>
+        <div className='flex justify-between sm:px-16'>
+            <div className='flex items-center gap-3 sm:px-2'>
                 <div className='p-1 rounded-lg'>
-                    <Image src="/stories/1.png" width={45} height={45} alt='story' className='rounded-lg border-[1px] border-white'/>
+                    <Image src="/stories/3.jpg" width={45} height={45} alt='story' className='rounded-full border-[1px] border-white'/>
                 </div>
                 <div className='flex flex-col justify-center'>
                     <h2 className='font-bold text-[14px] '>Smoke_202</h2>
@@ -22,7 +22,7 @@ const Post = ({ image, post}) => {
         <div className='mt-4 w-full h-auto flex justify-center'>
             <Image src={image} width={400} height={400} alt='story' className='rounded-xl'/>
         </div>
-        <div className='px-2 mt-2'>
+        <div className='px-2 mt-2 sm:px-20 sm:mt-4'>
             <p className='text-[14px]'>Liked by <b>amy_adams and 299</b> others</p>
             <p className='font-semibold text-gray-600'>{post}</p>
             <p className='text-[14px] font-semibold text-gray-400'>View all 20 comments</p>

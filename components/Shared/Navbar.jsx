@@ -44,11 +44,11 @@ const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <nav className='w-full bg-white py-4 px-4 fixed bottom-0 shadow-[0px_-3px_13px_3px_#00000024]'>
+    <nav className='w-full bg-white py-4 sm:py-6 px-4 sm:px-28 fixed bottom-0 shadow-[0px_-3px_13px_3px_#00000024]'>
       <ul className='flex justify-between'>
         {Links.map((link) => (
           <li key={link.id} className='px-2'>
-            <Link href={link.path} className={`text-[26px] ${pathname === link.path ? 'text-black' : 'text-gray-400'}`}>
+            <Link href={link.path} className={`text-[26px] sm:text-4xl ${pathname === link.path ? 'text-black' : 'text-gray-400'}`}>
               {link.icon}
             </Link>
           </li>
