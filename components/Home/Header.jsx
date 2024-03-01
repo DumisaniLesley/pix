@@ -3,7 +3,7 @@ import { FaSearch } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <header className='fixed top-0 left-0 bg-transparent backdrop-blur-sm w-full py-3 shadow-sm'>
+    <header className='fixed top-0 left-0 w-full py-3 shadow-sm bg-white'>
       <div className='flex justify-between items-center mx-auto w-full space-x-[270px] px-4'>
         <div>
               <h1 className='font-extrabold text-[22px]'>Pix</h1>

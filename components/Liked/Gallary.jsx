@@ -42,7 +42,7 @@ const Gallary = () => {
         </div>
         <div className='columns-2 gap-5 lg:gap-8 lg:columns-3 xl:columns-4 [&>Image:not(:first-child)]:mt-5 lg:[&>Image:not(:first-child)]:mt-8'>
             {images.map(image => {
-            return <Image key={image.id} src={image.src} width={200} height={200} alt={image.alt} className='rounded-md mb-4'/> 
+            return <Image key={image.id} src={image.src} width={200} height={200} alt={image.alt} className='rounded-md mb-4 bg-white shadow-sm'/> 
             })}
         </div>
     </div>

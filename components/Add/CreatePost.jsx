@@ -6,7 +6,7 @@ import { MdAttachFile, MdVideocam } from "react-icons/md";
 
 const CreatePost = () => {
   return (
-    <div className='mt-16 px-4 h-screen'>
+    <div className='mt-12 px-4 py-5 h-screen'>
         <div className='flex gap-3 items-center'>
             <Image src="/stories/3.jpg" width={60} height={60} alt='story' className='rounded-full'/>
             <div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <main className="p-4 bg-white h-screen">
+   <main className="p-4 bg-gray-100">
       <Header />
       <Stories />
       <Posts />

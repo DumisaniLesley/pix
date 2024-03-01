@@ -7,7 +7,7 @@ import React from 'react'
 
 const ProfilePage = () => {
   return (
-    <main>
+<main className='px-4 bg-gray-100'>
         <Header />
         <ProfileDetails />
         <Tabs />

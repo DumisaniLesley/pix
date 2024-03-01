@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa";
 
 const Post = ({ image, post}) => {
   return (
-    <div className='flex flex-col mt-6 w-full shadow-md rounded-lg my-3 p-2'>
+    <div className='flex flex-col mt-6 w-full shadow-md rounded-lg my-3 p-2 bg-white'>
         <div className='flex justify-between'>
             <div className='flex items-center gap-3'>
                 <div className='p-1 rounded-lg'>

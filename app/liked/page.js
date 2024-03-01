@@ -5,7 +5,7 @@ import React from 'react'
 
 const LikedPosts = () => {
   return (
-    <main>
+    <main className='bg-gray-100'>
         <Header />
         <Liked />
         <Gallary />

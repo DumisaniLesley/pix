@@ -4,7 +4,7 @@ import Header from '@/components/Shared/Header'
 
 const NotificationPage = () => {
   return (
-    <main>
+    <main className='bg-gray-100 h-screen'>
       <Header />
       <Notifications />
     </main>
