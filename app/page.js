@@ -9,6 +9,9 @@ export default function Home() {
       <Header />
       <Stories />
       <Posts />
+      <div className="mt-10">
+        <p>Some action buttons here</p>
+      </div>
    </main>
   );
 }

@@ -12,6 +12,9 @@ const ProfilePage = () => {
         <ProfileDetails />
         <Tabs />
         <Gallary />
+        <div className="mt-10">
+          <p>Some action buttons here</p>
+      </div>
     </main>
   )
 }

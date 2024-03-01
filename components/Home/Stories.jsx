@@ -6,42 +6,42 @@ const stories = [
   {
     id: 1,
     name: 'Kitana',
-    src: '/stories/2.jpg',
+    src: '/stories/3.jpg',
   },
   {
     id: 2,
     name: 'Wolf',
-    src: '/stories/1.png',
+    src: '/stories/3.jpg',
   },
   {
     id: 3,
     name: 'Chung',
-    src: '/stories/1.png',
+    src: '/stories/3.jpg',
   },
   {
     id: 4,
     name: 'Danny',
-    src: '/stories/1.png',
+    src: '/stories/3.jpg',
   },
   {
     id: 5,
     name: 'Jane',
-    src: '/stories/1.png',
+    src: '/stories/3.jpg',
   },
   {
     id: 5,
     name: 'Jack',
-    src: '/stories/1.png',
+    src: '/stories/3.jpg',
   },
   {
     id: 6,
     name: 'Scopion',
-    src: '/stories/1.png',
+    src: '/stories/3.jpg',
   },
   {
     id: 7,
     name: 'Jade',
-    src: '/stories/1.png',
+    src: '/stories/3.jpg',
   },
 ]
 

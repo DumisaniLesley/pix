@@ -15,19 +15,19 @@ const ProfileDetails = () => {
         </div>
         <div className='flex justify-between px-14 text-center mt-3'>
             <div>
-                <p>25K</p>
-                <span>Followers</span>
+                <p className='font-bold'>25K</p>
+                <span className='text-gray-500 font-normal'>Followers</span>
             </div>
             <div>
-                <p>500</p>
-                <span>Following</span>
+                <p className='font-bold'>500</p>
+                <span className='text-gray-500 font-normal'>Following</span>
             </div>
             <div>
-                <p>2K</p>
-                <span>Posts</span>
+                <p className='font-bold'>2K</p>
+                <span className='text-gray-500 font-normal'>Posts</span>
             </div>
         </div>
-        <button className='bg-blue-500 py-3 rounded-full mt-3 text-xl font-bold'>Follow</button>
+        <button className='bg-gradient-to-r from-cyan-400 to-indigo-600 py-3 rounded-full mt-3 text-xl font-bold text-white'>Follow</button>
     </div>
   )
 }

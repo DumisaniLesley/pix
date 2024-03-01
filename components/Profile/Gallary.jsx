@@ -4,27 +4,27 @@ import React from 'react'
 const images = [
     {
         id: 1,
-        src: "/stories/chama.jpg",
+        src: "/posts/chama.jpg",
         alt: "Chama"
     },
     {
         id: 2,
-        src: "/stories/code.jpg",
+        src: "/posts/smoke.jpg",
         alt: "Chama"
     },
     {
         id: 3,
-        src: "/stories/test.jpg",
+        src: "/posts/test.jpg",
         alt: "Chama"
     },
     {
         id: 4,
-        src: "/stories/test.jpg",
+        src: "/posts/cat.jpeg",
         alt: "Chama"
     },
     {
         id: 5,
-        src: "/stories/chama.jpg",
+        src: "/posts/chama.jpg",
         alt: "Chama"
     },
 ]
