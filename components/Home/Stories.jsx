@@ -5,13 +5,13 @@ import Story from './Story'
 const stories = [
   {
     id: 1,
-    name: 'Kitana',
-    src: '/stories/3.jpg',
+    name: '',
+    src: '/stories/plus.png',
   },
   {
     id: 2,
     name: 'Wolf',
-    src: '/stories/3.jpg',
+    src: '/stories/1.png',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const stories = [
   {
     id: 4,
     name: 'Danny',
-    src: '/stories/3.jpg',
+    src: '/stories/1.png',
   },
   {
     id: 5,
@@ -31,12 +31,12 @@ const stories = [
   {
     id: 5,
     name: 'Jack',
-    src: '/stories/3.jpg',
+    src: '/stories/1.png',
   },
   {
     id: 6,
     name: 'Scopion',
-    src: '/stories/3.jpg',
+    src: '/stories/1.png',
   },
   {
     id: 7,
@@ -49,7 +49,7 @@ const Stories = () => {
   return (
     <div className='flex gap-4 overflow-x-auto mt-16'>
       {stories.map((story, index) => (
-        <Story user={story.name} key={index}/>
+        <Story key={index} user={story.name} image={story.src}/>
       ))}
     </div>
   )

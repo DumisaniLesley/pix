@@ -1,10 +1,12 @@
 import Link from 'next/link'
-import React from 'react'
+import { MdOutlineKeyboardBackspace } from "react-icons/md";
 
 const Header = () => {
   return (
-    <div className='px-4 mt-4 fixed top-0'>
-        <Link href='/'>Back</Link>
+    <div className='px-4 fixed top-0 left-0 w-full py-3'>
+        <Link href='/'>
+          <MdOutlineKeyboardBackspace className='text-2xl'/>
+        </Link>
     </div>
   )
 }
