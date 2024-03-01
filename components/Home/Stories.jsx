@@ -47,7 +47,7 @@ const stories = [
 
 const Stories = () => {
   return (
-    <div className='flex gap-4 overflow-x-auto mt-16'>
+    <div className='flex gap-4 overflow-x-auto mt-16 scrollbar scrollbar-none'>
       {stories.map((story, index) => (
         <Story key={index} user={story.name} image={story.src}/>
       ))}
