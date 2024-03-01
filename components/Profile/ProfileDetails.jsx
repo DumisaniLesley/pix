@@ -8,9 +8,9 @@ const ProfileDetails = () => {
             <div>
                 <Image src="/stories/3.jpg" width={130} height={130} alt='story' className='rounded-3xl'/>
             </div>
-            <div>
-                <h2 className='font-bold text-3xl'>Smoke Fire</h2>
-                <p>@Smoke_202</p>
+            <div className='mt-2'>
+                <h2 className='font-bold text-2xl'>Smoke Fire</h2>
+                <p className='-mt-1 font-semibold text-[13px] text-gray-500'>@Smoke_202</p>
             </div>
         </div>
         <div className='flex justify-between px-14 text-center mt-3'>
