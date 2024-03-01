@@ -1,8 +1,8 @@
-import Button from '@/components/Profile/Button'
+
 import Gallary from '@/components/Profile/Gallary'
-import Header from '@/components/Profile/Header'
 import ProfileDetails from '@/components/Profile/ProfileDetails'
 import Tabs from '@/components/Profile/Tabs'
+import Header from '@/components/Shared/Header'
 import React from 'react'
 
 const ProfilePage = () => {
@@ -14,7 +14,7 @@ const ProfilePage = () => {
         <Gallary />
         <div className="mt-10">
           <p>Some action buttons here</p>
-      </div>
+        </div>
     </main>
   )
 }

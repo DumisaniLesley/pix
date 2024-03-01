@@ -6,7 +6,7 @@ const ProfileDetails = () => {
     <div className='flex flex-col px-4 mt-12'>
         <div className='flex flex-col justify-center items-center text-center'>
             <div>
-                <Image src="/stories/3.jpg" width={130} height={130} alt='story' className='rounded-3xl'/>
+                <Image src="/stories/3.jpg" width={130} height={130} alt='story' className='rounded-full'/>
             </div>
             <div className='mt-2'>
                 <h2 className='font-bold text-2xl'>Smoke Fire</h2>

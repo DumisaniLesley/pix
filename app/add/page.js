@@ -1,6 +1,5 @@
 import CreatePost from '@/components/Add/CreatePost'
-import Header from '@/components/Add/Header'
-import React from 'react'
+import Header from '@/components/Shared/Header'
 
 const AddPostPage = () => {
   return (
