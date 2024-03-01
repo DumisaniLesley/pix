@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { HiDotsVertical } from "react-icons/hi";
 
-const Notification = ({ image, time}) => {
+const Notification = ({ image, time, username}) => {
   return (
     <div className="flex justify-between items-center gap-4 bg-white shadow-md my-2 p-2 rounded-md">
       <div>
@@ -15,11 +15,11 @@ const Notification = ({ image, time}) => {
         />
       </div>
       <div>
-        <h4 className="font-semibold text-md">user name <span className="font-normal">posted</span></h4>
+        <h4 className="font-semibold text-md">{username} <span className="font-normal">posted</span></h4>
         <p className="text-[14px]">some text that will break on 2 lines</p>
       </div>
-      <div>
-        <p>{time}h</p>
+      <div className="flex flex-col items-center gap-2">
+        <p>{time}</p>
         <HiDotsVertical />
       </div>
     </div>
