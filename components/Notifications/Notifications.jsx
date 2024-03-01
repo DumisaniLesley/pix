@@ -7,7 +7,7 @@ const notifications = [
   {
       id: 1,
       username: "JohnDoe",
-      imagePath: '/stories/1.png',
+      imagePath: '/stories/3.jpg',
       timeInMinutes: 15
   },
   {
@@ -19,13 +19,13 @@ const notifications = [
   {
       id: 3,
       username: "AlexJohnson",
-      imagePath: '/stories/1.png',
+      imagePath: '/stories/3.jpg',
       timeInMinutes: 45
   },
   {
       id: 4,
       username: "EmilyBrown",
-      imagePath: '/stories/1.png',
+      imagePath: '/stories/3.jpg',
       timeInMinutes: 60
   },
   {
@@ -49,7 +49,7 @@ const notifications = [
   {
       id: 8,
       username: "OliviaMartinez",
-      imagePath: '/stories/1.png',
+      imagePath: '/stories/.png',
       timeInMinutes: 120
   },
   {
@@ -61,7 +61,7 @@ const notifications = [
   {
       id: 10,
       username: "AvaLopez",
-      imagePath: '/stories/1.png',
+      imagePath: '/stories/3.jpg',
       timeInMinutes: 150
   }
 ];
