@@ -23,7 +23,7 @@ const Post = ({ image, post}) => {
             <Image src={image} width={400} height={400} alt='story' className='rounded-xl'/>
         </div>
         <div className='px-2 mt-2'>
-            <p>liked by <b>amy_adams and 299</b> others</p>
+            <p className='text-[14px]'>Liked by <b>amy_adams and 299</b> others</p>
             <p className='font-semibold text-gray-600'>{post}</p>
             <p className='text-[14px] font-semibold text-gray-400'>View all 20 comments</p>
         <p className='font-semibold text-[15px]'>Smoke_202 <span className='font-light text-gray-500'>Very nice</span></p>

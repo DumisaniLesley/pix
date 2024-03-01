@@ -21,7 +21,7 @@ const Links = [
   {
       id: 3,
       title: "New Post",
-      path: "/new-post",
+      path: "/add",
       icon: <FaPlusCircle/>,
   },
   {
