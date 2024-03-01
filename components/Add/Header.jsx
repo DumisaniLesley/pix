@@ -6,14 +6,11 @@ const Header = () => {
     <div className='px-4 fixed top-0 left-0 w-full py-3'>
   <div className='flex justify-between'>
           <div className='flex gap-3'>
-            <Link href='/' >
-              <MdOutlineKeyboardBackspace className='text-2xl'/>
-            </Link>
-            <p className='font-bold'>Create Post</p>
+            <p className='font-bold text-lg'>Create Post</p>
           </div>
-          <button>
-            <MdOutlineClose className='text-2xl'/>
-          </button>
+            <Link href='/'>
+              <MdOutlineClose className='text-2xl'/>
+            </Link>
       </div>
     </div>
   )

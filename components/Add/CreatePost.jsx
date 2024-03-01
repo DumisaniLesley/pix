@@ -6,7 +6,7 @@ import { MdAttachFile, MdVideocam } from "react-icons/md";
 
 const CreatePost = () => {
   return (
-    <div className='mt-12 px-4 h-screen'>
+    <div className='mt-16 px-4 h-screen'>
         <div className='flex gap-3 items-center'>
             <Image src="/stories/3.jpg" width={60} height={60} alt='story' className='rounded-full'/>
             <div>
@@ -35,7 +35,7 @@ const CreatePost = () => {
                         </div>
                     </div>
                 </div>
-                <button className='bg-gradient-to-r from-cyan-400 to-indigo-600 py-3 rounded-2xl w-full mt-0 text-xl font-bold text-white'>Post</button>
+                <button className='bg-gradient-to-r from-cyan-400 to-indigo-600 py-2 rounded-2xl w-full mt-0 text-lg font-semibold text-white'>Post</button>
             </form>
         </div>
     </div>
