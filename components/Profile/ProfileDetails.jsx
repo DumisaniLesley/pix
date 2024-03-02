@@ -11,7 +11,7 @@ const ProfileDetails = async () => {
     <div className='flex flex-col px-4 py-5 mt-12 bg-white shadow-sm rounded-md'>
         <div className='flex flex-col justify-center items-center text-center'>
             <div>
-                <Image src={user.imageUrl} width={120} height={120} alt='story' className='rounded-full'/>
+                <Image src={user.imageUrl} width={120} height={120} alt='story' className='rounded-full aspect-square'/>
             </div>
             <div className='mt-2'>
                 <h2 className='font-bold text-2xl'>{user.firstName}</h2>
